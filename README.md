@@ -15,7 +15,7 @@
 通常は `site-strategy-orchestrator` から起動される。
 
 ```bash
-aachat session run site-requirements-agent --project <project> --via claude-code "
+aachat session run site-requirements-agent.<owner> --project <project> "
 ヒアリング結果を要件定義に整理。
 context: [[aachat/docs/<team>/<project>/hearing/<case-id>.md]]
 "

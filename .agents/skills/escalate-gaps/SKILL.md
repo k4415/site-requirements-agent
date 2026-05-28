@@ -43,7 +43,7 @@ description: 必須要素が hearing から読み取れない時の再依頼/エ
 ### A. hearing-agent への再依頼
 
 ```bash
-aachat session run site-hearing-agent --project <project> --via claude-code "
+aachat session run site-hearing-agent.<owner> --project <project> "
 追加ヒアリングをお願いします。
 context: [[aachat/docs/<team>/<project>/hearing/<case-id>.md]]
 追加質問:
