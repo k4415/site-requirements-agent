@@ -1,0 +1,9 @@
+name: site-requirements-agent
+description: "Requirements organizer that turns hearing into structured requirements + research needs"
+config:
+  packages:
+    pip: []
+    npm: []
+  networking:
+    type: unrestricted
+  env: []
